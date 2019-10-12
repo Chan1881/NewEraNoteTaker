@@ -4,43 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".home2">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to NoteTaker"
-        android:textSize="30dp"
-        />
-
-    <ImageView
-        android:id="@+id/download"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:src="@drawable/images"
-
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Add Note"
+        android:layout_margin="20dp"
         />
 
     <EditText
-        android:id="@+id/edit_username"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username"
+        android:hint="Title"
+        android:layout_margin="20dp"
         />
 
     <EditText
-        android:id="@+id/edit_password"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:hint="Password"
+        android:hint="Content"
+        android:layout_margin="20dp"
         />
+
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Save"
+        android:layout_gravity="center_horizontal"
         />
+
 </LinearLayout>
